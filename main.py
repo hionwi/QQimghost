@@ -28,7 +28,7 @@ def send_pic(pic_name):
     url = f'http://{ip}:{port}/send_private_msg'
     # 填写QQ号
     data = {'user_id': QQid,
-            'message': f"[CQ:image,type=show,file=base64://{image_base64}]",
+            'message': f"[CQ:image,file=base64://{image_base64}]",
             'auto_escape': False}
     response = requests.post(url, json=data)
 
