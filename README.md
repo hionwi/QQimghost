@@ -1,5 +1,5 @@
 # 使用QQ作为图床的Typora上传服务
-
+#### Typora粘贴图片自动上传到QQ图床
 ### 开始使用
 
 1. 安装 [go-cqhttp](https://docs.go-cqhttp.org/) 添加http通信配置
